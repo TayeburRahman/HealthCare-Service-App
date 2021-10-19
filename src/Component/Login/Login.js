@@ -8,9 +8,7 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   const {
-    signInUsingGoogle,
-    error,
-    user,
+    signInUsingGoogle, 
     handleEmailChang,
     handlePasswordChang,
     toggoleLogin,

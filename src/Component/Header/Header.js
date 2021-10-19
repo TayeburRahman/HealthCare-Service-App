@@ -8,7 +8,7 @@ import useAuth from "../../Firebase/HooksFirebase/useAuth";
 
 const Header = () => {
   const { user, logOut } = useAuth([]);
-  console.log(user);
+  console.log('userss' ,user);
   return (
     <div className="header">
       <Navbar
