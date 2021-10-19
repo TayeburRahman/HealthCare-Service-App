@@ -1,0 +1,27 @@
+.service-slider {
+  color: darkslategrey;
+  text-align: right;
+  background-image: url("../../image/hospita.jpg.crdownload");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.ourSurvice {
+  color: #0f1a4f;
+}
+  .text-dtl {
+  text-align: left;
+}
+.text-title {
+  box-shadow: 0px 0px 17px -5px rgb(139, 139, 139);
+  color: #808000;
+  background-color: rgb(236, 250, 234);
+  text-align: left;
+}
+
+.depermentscart {
+  justify-content: center;
+}

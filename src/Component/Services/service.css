@@ -1,0 +1,62 @@
+.service-container, .services-row{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.survicecartbtn{
+    margin: 15px 0px 0px 115px;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.div-button{
+    margin: 17px 0px 0px 110px;
+
+}
+.text-survices {
+    color: rgb(255, 64, 96);
+}
+.survicecartbtns{
+     text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1ea6f4;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+ .surviceHet{
+    text-align: left;
+    background-color: rgb(238, 238, 238);
+    color: rgb(62, 55, 68);
+    height: 150px;
+ }
+
+ .surviceHet h1{
+     border-left: 10px solid goldenrod;
+     padding: 15px;
+     margin-top: 37px;
+ }
+
+ .text-lefts{
+     text-align: left;
+     border-left:10px solid rgb(192, 192, 192) ;
+
+ }

@@ -1,0 +1,35 @@
+ 
+.form-login{
+    text-align: left;
+   box-shadow: 0px 0px 50px -36px;
+    background-color: rgb(253, 253, 253); 
+    
+}
+.bg-colors{
+    background-color: rgb(235, 236, 230);
+
+}
+
+.Submit-buttons{
+    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(221, 2, 57);
+}
+.google-button{
+    border: 1px solid rgb(194, 194, 194);
+
+}
+.google-button, .Submit-buttons{
+    transition: all .3s ease-in-out;
+}
+    
+.google-button:hover, .Submit-buttons:hover{
+      transform:translatey(5px);
+      box-shadow: none;
+      -webkit-transform:translatey(5px);
+      -moz-transform:translatey(5px);
+      -ms-transform:translatey(5px);
+      -o-transform:translatey(5px);
+}
+ .google-button:active{
+      opacity: 0.5;
+    }

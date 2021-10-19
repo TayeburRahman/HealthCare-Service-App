@@ -1,0 +1,9 @@
+.footer {
+    color: rgb(160, 159, 159);
+    text-align: left;
+    background-color: rgb(5, 16, 41);
+}
+.footer a{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
