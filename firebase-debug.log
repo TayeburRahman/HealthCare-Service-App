@@ -19,3 +19,34 @@
 [debug] [2021-10-19T17:30:11.903Z] > refreshing access token with scopes: []
 [debug] [2021-10-19T17:30:11.904Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
+[debug] [2021-10-19T17:32:23.162Z] ----------------------------------------------------------------------
+[debug] [2021-10-19T17:32:23.166Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-10-19T17:32:23.166Z] CLI Version:   9.20.0
+[debug] [2021-10-19T17:32:23.166Z] Platform:      win32
+[debug] [2021-10-19T17:32:23.167Z] Node Version:  v14.17.1
+[debug] [2021-10-19T17:32:23.168Z] Time:          Tue Oct 19 2021 11:32:23 GMT-0600 (Mountain Daylight Time)
+[debug] [2021-10-19T17:32:23.168Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-19T17:32:23.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T17:32:23.231Z] > authorizing via signed-in user (tayebrayhan101@gmail.com)
+[debug] [2021-10-19T17:32:23.231Z] [iam] checking project availl-hospital for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-19T17:32:23.233Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/availl-hospital:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-19T17:32:25.722Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 17:32:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1152","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:32:25.727Z] > refreshing access token with scopes: []
+[debug] [2021-10-19T17:32:25.728Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T17:33:59.292Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Tue, 19 Oct 2021 17:32:46 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:33:59.311Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/availl-hospital [none]
+[debug] [2021-10-19T17:33:59.885Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/availl-hospital 200
+[debug] [2021-10-19T17:33:59.885Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/availl-hospital {"projectId":"availl-hospital","projectNumber":"17048408757","displayName":"Availl Hospital ","name":"projects/availl-hospital","resources":{"hostingSite":"availl-hospital"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'availl-hospital'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-10-19T17:33:59.890Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-19T17:33:59.891Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T17:34:00.555Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Tue, 19 Oct 2021 17:34:19 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:34:00.566Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/availl-hospital/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}

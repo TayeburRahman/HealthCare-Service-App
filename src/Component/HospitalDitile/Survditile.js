@@ -40,7 +40,7 @@ const Survditile = () => {
             <br />
             <h5 className=" ">{services.ditels}</h5>
           </div>
-          <div className="col-md-6 col-sm-12 ps-5 pe-5 mt-5 text-dtl">
+          <div className="col-md-6 col-sm-12 ps-5 pe-5 mt-5 text-dtl tft">
             <p>{services.text}</p>
           </div>
         </div>
